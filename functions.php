@@ -18,4 +18,10 @@ function register_my_menu() {
 }
 add_action( 'after_setup_theme', 'register_my_menu' );
 
+function load_font_awesome() {
+   // Cette fonction intègre les icones fontawesome
+   wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+}
+add_action('wp_enqueue_scripts', 'load_font_awesome');
+
 ?> 

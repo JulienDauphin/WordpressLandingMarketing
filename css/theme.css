@@ -1,5 +1,81 @@
 :root {
     --pink-color: #FC7577;
     --blue-color: #4CB8B4;
-    --grey-color : #b6bccb;
+    --grey-color : #464749;
+    --bg-color : #f7f7f8;
   }
+  #body{
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    color: var(--blue-color);
+    margin: 5px 0;
+    font-size: 2em;
+    text-align: center;
+  }
+  h2{
+    color: var(--blue-color);
+    margin: 5px 0;
+    font-size: 1em;
+    text-align: center;
+  }
+  p{
+    color: var(--grey-color);
+    margin: 10px 0;
+    font-size: 0.9em;
+    text-align: center;
+  }
+  button{
+    background-color: var(--pink-color);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100px;
+  }
+  /* Header */
+  #header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #headerMenu{
+    display: flex;
+  }
+  #headerMenu a{
+    color: var(--grey-color);
+    text-decoration: none;
+  }
+  #headerMenu a:hover{
+    color: var(--pink-color);
+  }
+  #headerMenu li{
+    list-style-type: none;
+    padding: 5px;
+  }
+/* Section Top */
+#accueilTop{
+  flex-direction: column;
+  background-color: var(--bg-color);
+  padding: 50px 0;
+}
+#services{
+  padding: 50px 0;
+}
+#services i{
+  color: var(--pink-color);
+  font-size: 50px;
+}
+.service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 20%;
+}
