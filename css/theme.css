@@ -63,7 +63,7 @@
 #accueilTop{
   flex-direction: column;
   background-color: var(--bg-color);
-  padding: 50px 0;
+  padding: 50px 0 0 0;
 }
 #services{
   padding: 50px 0;
@@ -78,4 +78,17 @@
   align-items: center;
   padding: 10px;
   width: 20%;
+}
+#methodologie{
+  background-color: var(--blue-color);
+  padding: 50px 0;
+  justify-content: space-evenly;
+}
+#methodologie h2,#methodologie p{
+  color: white;
+  
+}
+#texteMethodologie{
+  display: flex;
+  flex-direction: column;
 }
