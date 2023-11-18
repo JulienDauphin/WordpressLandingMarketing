@@ -7,6 +7,7 @@
   #body{
     max-width: 1240px;
     margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   section{
     display: flex;
@@ -27,9 +28,15 @@
   }
   p{
     color: var(--grey-color);
-    margin: 0 0 10px 0;
+    margin: unset;
     font-size: 0.9em;
     text-align: center;
+  }
+  span{
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    display: block;
   }
   button{
     background-color: var(--pink-color);
@@ -45,6 +52,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 25px;
   }
   #headerMenu{
     display: flex;
@@ -61,19 +69,19 @@
     padding: 5px;
   }
 /* Section Top */
-#accueilTop{
+#accueilTop, #teams{
   flex-direction: column;
   background-color: var(--bg-color);
   padding: 50px 0 ;
 }
-#services{
+#services, #teams{
   padding: 50px 0;
 }
 #services i{
   color: var(--pink-color);
   font-size: 50px;
 }
-.service{
+.service, .team{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,15 +98,21 @@
   color: white;
 }
 #methodologie h3{
-  font-size: 25px;
+  font-size: 2em;
   margin: unset;
 }
 #methodologie p{
   text-align: left;
   padding: 0 70px;
+  font-size: 1.1em;
 }
 #methodologie img{
   padding: 0 70px;
+}
+#methodologie button{
+  margin: unset;
+  background-color: white;
+  color: var(--blue-color);
 }
 #texteMethodologie{
   display: flex;
@@ -108,4 +122,7 @@
 #illustration img{
   max-width: 100%;
 }
-
+#theTeams{
+  display: flex;
+  justify-content: center;
+}
