@@ -17,13 +17,15 @@
 <img src="<?php echo get_template_directory_uri(); ?>/images/illustrationFull.png" alt="Illustration de nos employés pendant qu'ils travaillent" id="illustrationTop">
 </section>
 <section id="methodologie">
-    <div>
-<img src="<?php echo get_template_directory_uri(); ?>/images/illustrationTop.png" alt="Illustration de nos employés pendant qu'ils travaillent" id="illustrationTop">
-</div>
+<div><h3>Notre Méthodologie</h3></div>
 <div id="texteMethodologie">
+<img src="<?php echo get_template_directory_uri(); ?>/images/illustrationmiddle.png" alt="Illustration de nos notre méthodologie" id="illustrationMiddle">
 
-    <h2>Notre Méthodologie</h2>
+
+
+    
     <p>Chez MédiaPulse360, nous comprenons que chaque entreprise a sa propre histoire. Notre approche stratégique en quatre étapes commence par une analyse approfondie, suivi d'une stratégie sur mesure. Avec une mise en œuvre experte et un ajustement continu, nous vous propulsons vers le succès numérique. </p>
     </div>
+    
 </section>
 <?php get_footer() ?>
