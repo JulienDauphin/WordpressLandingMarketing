@@ -2,9 +2,9 @@
 
 <?php /* Template Name: Accueil */ ?>
 <section id="accueilTop">
-    <h1>Boostez Votre Présence en Ligne avec MédiaPulse360</h1>
-    <p>Solutions Stratégiques de Marketing Digital pour Accroître Votre Impact</p>
-    <button>Cliquer</button>
+    <h1>Boostez votre présence en ligne</h1>
+    <p>Solutions stratégiques de marketing digital pour accroître votre impact</p>
+    <button>Nous contacter</button>
     <img src="<?php echo get_template_directory_uri(); ?>/images/illustrationTop.png" alt="Illustration de nos employés pendant qu'ils travaillent" id="illustrationTop">
 </section>
 <section id="services">
@@ -13,7 +13,7 @@
     <div class="service"><i class="fas fa-chart-pie"></i><h2>Analyse de Données</h2><p>Une approche basée sur les données pour des décisions marketing informées.</p></div>
     <div class="service"><i class="fas fa-envelope"></i><h2>Marketing par E-mail</h2><p>Des campagnes personnalisées pour fidéliser vos clients et générer des leads.</p></div>
 </section>
-<section>
+<section id="illustration">
 <img src="<?php echo get_template_directory_uri(); ?>/images/illustrationFull.png" alt="Illustration de nos employés pendant qu'ils travaillent" id="illustrationTop">
 </section>
 <section id="methodologie">

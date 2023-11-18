@@ -27,7 +27,7 @@
   }
   p{
     color: var(--grey-color);
-    margin: 10px 0;
+    margin: 0 0 10px 0;
     font-size: 0.9em;
     text-align: center;
   }
@@ -36,8 +36,9 @@
     color: white;
     border: none;
     border-radius: 25px;
-    padding: 10px;
-    width: 100px;
+    padding: 15px;
+    margin: 20px 0;
+    width: 150px;
   }
   /* Header */
   #header{
@@ -63,7 +64,7 @@
 #accueilTop{
   flex-direction: column;
   background-color: var(--bg-color);
-  padding: 50px 0 0 0;
+  padding: 50px 0 ;
 }
 #services{
   padding: 50px 0;
@@ -103,5 +104,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#illustration img{
+  max-width: 100%;
 }
 
