@@ -1,6 +1,6 @@
 :root {
-    --pink-color: #FC7577;
-    --blue-color: #4CB8B4;
+    --pink-color: #c46465;
+    --blue-color: #3ca5a1;
     --grey-color : #464749;
     --bg-color : #f7f7f8;
   }
@@ -26,6 +26,10 @@
     font-size: 1em;
     text-align: center;
   }
+  h4{
+    color: white;
+    font-size: 1em;
+  }
   p{
     color: var(--grey-color);
     margin: unset;
@@ -47,6 +51,24 @@
     margin: 20px 0;
     width: 150px;
   }
+  button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  ul{
+    padding-inline-start: unset;
+  }
+  a {
+    text-decoration: none;
+  }
+  li{
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+  }
+  img{
+    max-width: 100%;
+  }
   /* Header */
   #header{
     display: flex;
@@ -59,14 +81,9 @@
   }
   #headerMenu a{
     color: var(--grey-color);
-    text-decoration: none;
   }
   #headerMenu a:hover{
     color: var(--pink-color);
-  }
-  #headerMenu li{
-    list-style-type: none;
-    padding: 5px;
   }
 /* Section Top */
 #accueilTop, #teams{
@@ -74,23 +91,9 @@
   background-color: var(--bg-color);
   padding: 50px 0 ;
 }
-#services, #teams{
-  padding: 50px 0;
-}
-#services i{
-  color: var(--pink-color);
-  font-size: 50px;
-}
-.service, .team{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  width: 20%;
-}
 #methodologie{
   background-color: var(--blue-color);
-  padding: 50px 100px;
+  padding: 50px 0 ;
   justify-content: center;
   flex-direction: column;
 }
@@ -103,11 +106,9 @@
 }
 #methodologie p{
   text-align: left;
-  padding: 0 70px;
+  width: 60%;
   font-size: 1.1em;
-}
-#methodologie img{
-  padding: 0 70px;
+  align-self: center;
 }
 #methodologie button{
   margin: unset;
@@ -115,14 +116,92 @@
   color: var(--blue-color);
 }
 #texteMethodologie{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
 }
 #illustration img{
   max-width: 100%;
 }
-#theTeams{
+#theTeam, #services, #footer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+#theTeam{
+  padding : 50px 0;
+}
+.team, .service, .listeFooter{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#teams h3{
+  color: var(--blue-color);
+  font-size: 2em;
+  margin: unset;
+}
+#teams span{
+  color: var(--blue-color);
+}
+.service p{
+  width: 80%;
+}
+#services, #teams{
+  padding: 50px 0;
+}
+#services i{
+  color: var(--pink-color);
+  font-size: 50px;
+}
+#footer{
+background-color: var(--blue-color);
+padding: 50px 0 ;
+}
+footer a {
+  color: white;
+}
+@media only screen and (max-width: 880px) {
+  #theTeam, #services, #footer{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap : 50px;
+  }
+  #texteMethodologie {
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 50px;
+}
+.service p {
+  width: 60%;
+}
+}
+@media only screen and (max-width: 660px) {
+  #theTeam, #services, #footer{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #texteMethodologie {
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 50px;
+}
+.service p {
+  width: 60%;
+}
+#logo{
+  max-height: 30px;
+}
+h1{
+  font-size: 1.5em;
+}
+#texteMethodologie{
+  width: 100%;
+}
+#header{
+  padding : 0 5px;
+}
+}
+@media only screen and (max-width: 500px) {
+#methodologie p {
+  width: 80%;
+}
+
 }

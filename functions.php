@@ -24,4 +24,20 @@ function load_font_awesome() {
 }
 add_action('wp_enqueue_scripts', 'load_font_awesome');
 
+function add_contact_menu($items, $args) {
+   // Cette fonction ajoute un/des lien(s) au menu
+   if ($args->theme_location == 'header_menu') {
+       $items .= '
+       <li><a href="mailto:contact@juliendauphin.fr?subject=Demande de renseignements">Nous contacter</a></li>
+       <li><a href="#"><i class="fab fa-github"></i>
+       </a></li>
+       <li><a href="#"><i class="fab fa-linkedin"></i>
+       </a></li>';
+
+   }
+   return $items;
+}
+
+add_filter('wp_nav_menu_items', 'add_contact_menu', 10, 2);
+
 ?> 
