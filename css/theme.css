@@ -1,6 +1,6 @@
 :root {
-    --pink-color: #c46465;
-    --blue-color: #3ca5a1;
+    --pink-color: #aa4b4c;
+    --blue-color: #186663;
     --grey-color : #464749;
     --bg-color : #f7f7f8;
   }
@@ -36,6 +36,9 @@
     font-size: 0.9em;
     text-align: center;
   }
+  #copyright p{
+    color: black;
+  }
   span{
     color: white;
     font-size: 0.9em;
@@ -60,6 +63,9 @@
   }
   a {
     text-decoration: none;
+  }
+  #copyright a{
+    color: var(--pink-color);
   }
   li{
     list-style-type: none;
@@ -147,7 +153,7 @@
 .service p{
   width: 80%;
 }
-#services, #teams{
+#services, #teams, #copyright{
   padding: 50px 0;
 }
 #services i{
