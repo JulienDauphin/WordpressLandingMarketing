@@ -4,7 +4,7 @@
 <?php wp_head(); ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Boostez votre visibilité en ligne - Marketing Digital">
-<title>MédiePulse360 - Marketing Digital et plus encore</title>
+<title>MédiaPulse360 - Marketing Digital et plus encore</title>
 
 </head>
 

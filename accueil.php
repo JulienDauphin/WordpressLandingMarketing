@@ -15,10 +15,10 @@
 <section id="illustration">
 <img src="<?php echo get_template_directory_uri(); ?>/images/illustrationFull.png" alt="Illustration de nos employés pendant qu'ils travaillent" id="illustrationFull">
 </section>
-<section id="methodologie">
+<section id="methodologie" >
 <div><h3>Notre Méthodologie</h3>
 <span>Votre succès, Notre engagement.</span></div>
-<div id="texteMethodologie">
+<div id="texteMethodologie" class="grid2">
 <img src="<?php echo get_template_directory_uri(); ?>/images/illustrationMiddle.png" alt="Illustration de nos notre méthodologie" id="illustrationMiddle">
 <p>Chez MédiaPulse360, nous comprenons que chaque entreprise a sa propre histoire.<br>
      Notre approche stratégique en quatre étapes commence par une analyse approfondie,<br>
@@ -39,6 +39,8 @@
 <div><a href="mailto:contact@juliendauphin.fr?subject=Demande de renseignements"><button>Nous contacter</button></a></div>
 </section>
 <section id="map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1720.1235700195277!2d5.448311615158752!3d43.52545550320582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c98d97ada73447%3A0xe133a30d8ae30d4c!2s6%20Rue%20Joseph%20Cabassol%2C%2013100%20Aix-en-Provence!5e0!3m2!1sfr!2sfr!4v1700403525624!5m2!1sfr!2sfr"  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="googleMapAgence"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.2264910699614!2d5.442384176690936!3d43.518469461133655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c98d9ac7990077%3A0x58f94c432b7fc536!2s5%20Rue%20des%20F%C3%A9libres%2C%2013090%20Aix-en-Provence!5e0!3m2!1sfr!2sfr!4v1700544984622!5m2!1sfr!2sfr" 
+width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="googleMapAgence"></iframe>
 </section>
 <?php get_footer() ?>
+

@@ -1,216 +1,281 @@
 :root {
-    --pink-color: #aa4b4c;
-    --blue-color: #186663;
-    --grey-color : #464749;
-    --bg-color : #f7f7f8;
-  }
-  #body{
-    max-width: 1240px;
-    margin: 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  h1{
-    color: var(--blue-color);
-    margin: 5px 0;
-    font-size: 2em;
-    text-align: center;
-  }
-  h2{
-    color: var(--blue-color);
-    margin: 5px 0;
-    font-size: 1em;
-    text-align: center;
-  }
-  #footer h2{
-    color: white;
-  }
-  h4{
-    color: white;
-    font-size: 1em;
-  }
-  p{
-    color: var(--grey-color);
-    margin: unset;
-    font-size: 0.9em;
-    text-align: center;
-  }
-  #copyright p{
-    color: black;
-  }
-  span{
-    color: white;
-    font-size: 0.9em;
-    text-align: center;
-    display: block;
-  }
-  button{
-    background-color: var(--pink-color);
-    color: white;
-    border: none;
-    border-radius: 25px;
-    padding: 15px;
-    margin: 20px 0;
-    width: 150px;
-  }
-  button:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-  }
-  ul{
-    padding-inline-start: unset;
-  }
-  a {
-    text-decoration: none;
-  }
-  #copyright a{
-    color: var(--pink-color);
-  }
-  li{
-    list-style-type: none;
-    padding: 5px;
-    text-align: center;
-  }
-  img{
-    max-width: 100%;
-  }
-  /* Header */
-  #header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 25px;
-  }
-  #headerMenu{
-    display: flex;
-  }
-  #headerMenu a{
-    color: var(--grey-color);
-  }
-  #headerMenu a:hover{
-    color: var(--pink-color);
-  }
-/* Section Top */
-#accueilTop, #teams{
+  --pink-color: #aa4b4c;
+  --blue-color: #186663;
+  --grey-color: #37383a;
+  --bg-color: #f7f7f8;
+}
+
+button,
+.white,
+footer h2,
+footer a,
+#methodologie h3,
+#methodologie p,
+#methodologie span {
+  color: white;
+}
+
+#headerMenu a:hover,
+#copyright a,
+#services i
+ {
+  color: var(--pink-color);
+}
+
+#body {
+  max-width: 1240px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--blue-color);
+  margin: 5px 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  color: var(--blue-color);
+  margin: 5px 0;
+  font-size: 1em;
+  text-align: center;
+}
+
+p {
+  color: var(--grey-color);
+  margin: unset;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+#copyright p {
+  color: black;
+}
+
+span {
+  font-size: 0.9em;
+  text-align: center;
+  display: block;
+}
+
+button {
+  background-color: var(--pink-color);
+  border: none;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px 0;
+  width: 170px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+ul {
+  padding-inline-start: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+#teams img{
+  width: 160px;
+  height: 160px;
+}
+#accueilTop img{
+  width: 700px;
+  height: 300px;
+}
+/* Header */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+#headerMenu {
+  display: flex;
+}
+
+#headerMenu a {
+  color: var(--grey-color);
+  font-size: 1.2em;
+}
+#accueilTop,
+#teams {
   flex-direction: column;
   background-color: var(--bg-color);
-  padding: 50px 0 ;
+  padding: 50px 0;
 }
-#methodologie{
+
+#methodologie {
   background-color: var(--blue-color);
-  padding: 50px 0 ;
   justify-content: center;
   flex-direction: column;
 }
-#methodologie h3,#methodologie p{
-  color: white;
-}
-#methodologie h3{
+
+#methodologie h3 {
   font-size: 2em;
   margin: unset;
 }
-#methodologie p{
+
+#methodologie p {
   text-align: left;
   width: 60%;
   font-size: 1.1em;
   align-self: center;
 }
-#methodologie button{
+
+#methodologie button {
   margin: unset;
   background-color: white;
   color: var(--blue-color);
 }
-#texteMethodologie{
+
+.grid2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+#texteMethodologie {
   place-items: center;
 }
-#illustration img{
-  max-width: 100%;
-}
-#theTeam, #services, #footer{
+
+#theTeam,
+#services,
+#footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
 }
-#theTeam{
-  padding : 50px 0;
-}
-.team, .service, .listeFooter{
+
+.team,
+.service,
+.listeFooter {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#teams h3{
+
+#teams h3 {
   color: var(--blue-color);
   font-size: 2em;
   margin: unset;
 }
-#teams span{
+
+#teams span {
   color: var(--blue-color);
 }
-.service p{
-  width: 80%;
-}
-#services, #teams, #copyright{
-  padding: 50px 0;
-}
-#services i{
-  color: var(--pink-color);
-  font-size: 50px;
-}
-#footer{
-background-color: var(--blue-color);
-padding: 50px 0 ;
-}
-footer a {
-  color: white;
-}
-@media only screen and (max-width: 880px) {
-  #theTeam, #services, #footer{
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    row-gap : 50px;
-  }
-  #texteMethodologie {
-    grid-template-columns: repeat(1,1fr);
-    margin-bottom: 50px;
-}
+
 .service p {
-  width: 60%;
-}
-}
-@media only screen and (max-width: 660px) {
-  #theTeam, #services, #footer{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  #texteMethodologie {
-    grid-template-columns: repeat(1,1fr);
-    margin-bottom: 50px;
-}
-.service p {
-  width: 60%;
-}
-#logo{
-  max-height: 30px;
-}
-h1{
-  font-size: 1.5em;
-}
-#texteMethodologie{
-  width: 100%;
-}
-#header{
-  padding : 0 5px;
-}
-}
-@media only screen and (max-width: 500px) {
-#methodologie p {
   width: 80%;
 }
 
+#services,
+#teams,
+#copyright,
+#theTeam,
+#methodologie,
+#footer {
+  padding: 50px 0;
+}
+
+#services i {
+  font-size: 50px;
+}
+
+#footer {
+  background-color: var(--blue-color);
+}
+
+@media only screen and (max-width: 880px) {
+
+  #theTeam,
+  #services,
+  #footer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50px;
+  }
+
+  #texteMethodologie {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 50px;
+  }
+
+  .service p {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+
+  #theTeam,
+  #services,
+  #footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #texteMethodologie {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 50px;
+  }
+
+  .service p {
+    width: 60%;
+  }
+
+  #logo {
+    max-height: 35px;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  #texteMethodologie {
+    width: 100%;
+  }
+
+  #header {
+    padding: 0 5px;
+  }
+
+  nav i{
+    font-size: 48px;
+  }
+
+  #accueilTop img{
+    width: 375px;
+    height: 160px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  #methodologie p,
+  #accueilTop p {
+    width: 80%;
+  }
 }

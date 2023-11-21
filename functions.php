@@ -20,7 +20,7 @@ add_action( 'after_setup_theme', 'register_my_menu' );
 
 function load_font_awesome() {
    // Cette fonction intègre les icones fontawesome
-   wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+   wp_enqueue_style('font-awesome', get_template_directory_uri() . '/css/all.min.css');
 }
 add_action('wp_enqueue_scripts', 'load_font_awesome');
 
@@ -28,7 +28,7 @@ function add_contact_menu($items, $args) {
    // Cette fonction ajoute un/des lien(s) au menu
    if ($args->theme_location == 'header_menu') {
        $items .= '
-       <li><a href="mailto:contact@juliendauphin.fr?subject=Demande de renseignements">Nous contacter</a></li>
+       
        <li><a href="https://github.com/JulienDauphin" aria-label="Lien externe vers Github" target="blank"><i class="fab fa-github"></i>
        </a></li>
        <li><a href="https://www.linkedin.com/in/julien-dauphin-developpeur-wordpress/" aria-label="Lien externe vers Linkedin" target="blank"><i class="fab fa-linkedin"></i>
