@@ -24,7 +24,7 @@ function load_font_awesome() {
 }
 add_action('wp_enqueue_scripts', 'load_font_awesome');
 
-function add_contact_menu($items, $args) {
+function add_sociaux_menu($items, $args) {
    // Cette fonction ajoute un/des lien(s) au menu
    if ($args->theme_location == 'header_menu') {
        $items .= '
@@ -38,6 +38,6 @@ function add_contact_menu($items, $args) {
    return $items;
 }
 
-add_filter('wp_nav_menu_items', 'add_contact_menu', 10, 2);
+add_filter('wp_nav_menu_items', 'add_sociaux_menu', 10, 2);
 
 ?> 
