@@ -29,7 +29,7 @@ function add_sociaux_menu($items, $args) {
    if ($args->theme_location == 'header_menu') {
        $items .= '
        
-       <li><a href="https://github.com/JulienDauphin" aria-label="Lien externe vers Github" target="blank"><i class="fab fa-github"></i>
+       <li><a href="https://github.com/JulienDauphin" aria-label="Lien externe vers mon Github" target="blank"><i class="fab fa-github"></i>
        </a></li>
        <li><a href="https://www.linkedin.com/in/julien-dauphin-developpeur-wordpress/" aria-label="Lien externe vers Linkedin" target="blank"><i class="fab fa-linkedin"></i>
        </a></li>';
