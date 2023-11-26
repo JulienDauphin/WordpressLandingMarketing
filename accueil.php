@@ -40,7 +40,7 @@
 </section>
 <section id="map">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.2264910699614!2d5.442384176690936!3d43.518469461133655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c98d9ac7990077%3A0x58f94c432b7fc536!2s5%20Rue%20des%20F%C3%A9libres%2C%2013090%20Aix-en-Provence!5e0!3m2!1sfr!2sfr!4v1700544984622!5m2!1sfr!2sfr" 
-width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="googleMapAgence"></iframe>
+width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="googleMapsAgence"></iframe>
 </section>
 <?php get_footer() ?>
 
