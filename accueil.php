@@ -31,9 +31,9 @@
 <div><h3>Notre Équipe</h3>
 <span>Nos spécialistes à votre écoute.</span></div>
     <div id="theTeam">
-    <div class="team"><img src="<?php echo get_template_directory_uri(); ?>/images/portraitEva.png" alt="Photo portrait d'un collaborateur" ><h2>Eva</h2><p>Spécialiste Médias Sociaux</p></div>
+    <div class="team"><img src="<?php echo get_template_directory_uri(); ?>/images/portraitEva.png" alt="Photo portrait d'une collaboratrice" ><h2>Eva</h2><p>Spécialiste Médias Sociaux</p></div>
     <div class="team"><img src="<?php echo get_template_directory_uri(); ?>/images/portraitAlex.png" alt="Photo portrait d'un collaborateur" ><h2>Alexandre</h2><p>Expert SEO et Analyste de Données</p></div>
-    <div class="team"><img src="<?php echo get_template_directory_uri(); ?>/images/portraitSophie.png" alt="Photo portrait d'un collaborateur" ><h2>Sophie</h2><p>Directrice des Stratégies Digitales</p></div>
+    <div class="team"><img src="<?php echo get_template_directory_uri(); ?>/images/portraitSophie.png" alt="Photo portrait d'une collaboratrice" ><h2>Sophie</h2><p>Directrice des Stratégies Digitales</p></div>
     <div class="team"><img src="<?php echo get_template_directory_uri(); ?>/images/portraitHugo.png" alt="Photo portrait d'un collaborateur" ><h2>Hugo</h2><p>Responsable Relations Clients</p></div>
 </div>
 <div><a href="mailto:contact@juliendauphin.fr?subject=Demande de renseignements"><button>Nous contacter</button></a></div>
